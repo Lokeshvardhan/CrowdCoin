@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/campaigns/requests": [
+    "/campaigns/new": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/campaigns/requests.js"
+      "static/chunks/pages/campaigns/new.js"
     ],
     "/campaigns/show": [
       "static/chunks/webpack.js",

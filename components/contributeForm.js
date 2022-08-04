@@ -14,6 +14,8 @@ const ContributeForm = (props)=>{
         setErrMsg('');
         try{
             const accounts = await web3.eth.getAccounts();
+            const manager = await campaign.methods.manager.call();
+            console.log(manager,'manager');
             await campaign.methods.contribute()
             .send({
                 from: accounts[0],
